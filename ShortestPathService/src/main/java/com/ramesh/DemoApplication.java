@@ -1,4 +1,4 @@
-package com.ramesh.demo;
+package com.ramesh;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -28,7 +28,7 @@ import com.ramesh.service.ShortestDistancePathService;
  * @author Ramesh.Yaleru
  */
 
-@SpringBootApplication (scanBasePackages = "com.ramesh.*")
+@SpringBootApplication (scanBasePackages = "com.ramesh")
 @EnableJpaRepositories("com.ramesh.*")
 @EntityScan( basePackages = {"com.ramesh.*"} )
 @EnableTransactionManagement

@@ -40,7 +40,7 @@ public class ShortestPathController {
     @GetMapping("/")
     public String loadUIPage(Model model) {
         model.addAttribute("planetNames", new PlanetNames());
-        return "displayUI";
+        return "index";
     }
     
     
